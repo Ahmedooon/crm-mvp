@@ -1,0 +1,1 @@
+# Placeholder for crm_project/backend/apps/invoices/models.py

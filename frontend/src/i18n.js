@@ -1,0 +1,1 @@
+# Placeholder for crm_project/frontend/src/i18n.js
