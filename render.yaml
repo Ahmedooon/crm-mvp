@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: crm-backend
+    env: python
+    plan: free
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: gunicorn crm_api.wsgi:application
+    envVars:
+      - key: DJANGO_SETTINGS_MODULE
+        value: crm_api.settings
+    rootDir: backend

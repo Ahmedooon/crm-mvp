@@ -1,1 +1,1 @@
-# Placeholder for crm_project/backend/manage.py
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'crm_api.settings')
